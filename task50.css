@@ -1,17 +1,17 @@
+
 .container {
   display: grid;
-
   color: white;
   gap: 10px;
 
-  grid-template-columns: repeat(8, 150px);
-  grid-template-rows: repeat(4, 80px);
+  grid-template-columns: 200px auto auto 150px 150px 130px 130px 50px;
+  grid-template-rows: repeat(4, 175px);
 }
 
 .item {
   padding: 10px;
-  background-color: purple;
 }
+
 .item1 {
   background-color: red;
 }
@@ -25,7 +25,8 @@
   grid-column-end: 4;
 }
 .item3 {
-background-color: green;}
+background-color: green;
+}
 .item4 {
   /* grid-row-start: ;
         grid-column-end: ; */
